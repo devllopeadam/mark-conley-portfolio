@@ -7,6 +7,13 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
+type SkillItem = {
+  skill_name: string;
+  image: string;
+  width: number;
+  height: number;
+};
+
 export const SKILL_DATA = [
   {
     skill_name: "React",
@@ -151,7 +158,7 @@ export const FULLSTACK_SKILL = [
   },
 ] as const;
 
-export const OTHER_SKILL = [] as const;
+export const OTHER_SKILL: SkillItem[] = [];
 
 export const EXPERIENCE = [
   {
