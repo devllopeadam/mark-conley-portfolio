@@ -7,17 +7,16 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-type SkillItem = {
-  skill_name: string;
-  image: string;
-  width: number;
-  height: number;
-};
-
 export const SKILL_DATA = [
   {
-    skill_name: "React",
-    image: "react.png",
+    skill_name: "HTML",
+    image: "html.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "CSS",
+    image: "css.png",
     width: 80,
     height: 80,
   },
@@ -28,8 +27,50 @@ export const SKILL_DATA = [
     height: 65,
   },
   {
+    skill_name: "Tailwind CSS",
+    image: "tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    image: "react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Redux",
+    image: "redux.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React Query",
+    image: "reactquery.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "TypeScript",
     image: "ts.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Next.js 14",
+    image: "next.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Framer Motion",
+    image: "framer.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Stripe",
+    image: "stripe.png",
     width: 80,
     height: 80,
   },
@@ -44,12 +85,6 @@ export const SKILL_DATA = [
     image: "mongodb.png",
     width: 40,
     height: 40,
-  },
-  {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
   },
 ] as const;
 
@@ -73,13 +108,13 @@ export const SOCIALS = [
 
 export const FRONTEND_SKILL = [
   {
-    skill_name: "HTML5",
+    skill_name: "HTML",
     image: "html.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS3",
+    skill_name: "CSS",
     image: "css.png",
     width: 80,
     height: 80,
@@ -91,8 +126,32 @@ export const FRONTEND_SKILL = [
     height: 65,
   },
   {
+    skill_name: "Tailwind CSS",
+    image: "tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Material UI",
+    image: "mui.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "React",
     image: "react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Redux",
+    image: "redux.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React Query",
+    image: "reactquery.png",
     width: 80,
     height: 80,
   },
@@ -103,14 +162,8 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Mobile-first Design",
-    image: "mui.png",
+    skill_name: "Next.js 14",
+    image: "next.png",
     width: 80,
     height: 80,
   },
@@ -124,10 +177,22 @@ export const BACKEND_SKILL = [
     height: 80,
   },
   {
+    skill_name: "Express.js",
+    image: "express.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "MongoDB",
     image: "mongodb.png",
     width: 40,
     height: 40,
+  },
+  {
+    skill_name: "Firebase",
+    image: "firebase.png",
+    width: 55,
+    height: 55,
   },
   {
     skill_name: "PostgreSQL",
@@ -141,6 +206,18 @@ export const BACKEND_SKILL = [
     width: 70,
     height: 70,
   },
+  {
+    skill_name: "Prisma",
+    image: "prisma.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Graphql",
+    image: "graphql.png",
+    width: 80,
+    height: 80,
+  },
 ] as const;
 
 export const FULLSTACK_SKILL = [
@@ -151,14 +228,33 @@ export const FULLSTACK_SKILL = [
     height: 70,
   },
   {
+    skill_name: "Tauri",
+    image: "tauri.png",
+    width: 70,
+    height: 70,
+  },
+  {
     skill_name: "Docker",
     image: "docker.png",
     width: 70,
     height: 70,
   },
+  {
+    skill_name: "Figma",
+    image: "figma.png",
+    width: 50,
+    height: 50,
+  },
 ] as const;
 
-export const OTHER_SKILL: SkillItem[] = [];
+export const OTHER_SKILL = [
+  {
+    skill_name: "Go",
+    image: "go.png",
+    width: 60,
+    height: 60,
+  },
+] as const;
 
 export const EXPERIENCE = [
   {
