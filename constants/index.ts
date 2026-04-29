@@ -297,7 +297,7 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    title: "AI Automation Projects - Healthcare / Medical Consultation System",
+    title: "AI Automation Healthcare Project",
     description:
       "Built an AI-powered healthcare consultation system for symptom submission, guided triage, appointment booking, provider communication, doctor dashboards, scheduling, analytics, and secure medical workflows.",
     image: "/projects/project-1.png",
