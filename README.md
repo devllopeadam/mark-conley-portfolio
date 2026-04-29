@@ -120,7 +120,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [@heroicons/react](https://www.npmjs.com/package/@heroicons/react): ^2.2.0
 - [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^10.7.7
 - [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^9.6.0
-- [@types/node](https://www.npmjs.com/package/@types/node): ^25
+- [@types/node](https://www.npmjs.com/package/@types/node): 25.6.0
 - [@types/react](https://www.npmjs.com/package/@types/react): 19.2.14
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): 19.2.3
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.5.0
@@ -137,7 +137,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.5.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
 - [three](https://www.npmjs.com/package/three): ^0.184.0
-- [typescript](https://www.npmjs.com/package/typescript): ^6
+- [typescript](https://www.npmjs.com/package/typescript): 6.0.3
 
 <!--- DEPENDENCIES_END --->
 
