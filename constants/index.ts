@@ -192,7 +192,7 @@ export const CERTIFICATIONS = [
 export const EDUCATION = [
   {
     school: "Southern New Hampshire University",
-    location: "Manchester, NH, United Kingdom",
+    location: "Manchester, NH, United Status",
     duration: "2015.9 - 2019.6",
     degree: "Bachelor of Computer Science",
     subject: "Computer Science",
