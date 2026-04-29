@@ -50,6 +50,7 @@ space-portfolio/
     |-- apple-icon.png
     |-- favicon.ico
     |-- globals.css
+    |-- icon.svg
     |-- icon1.png
     |-- icon2.png
     |-- layout.tsx
