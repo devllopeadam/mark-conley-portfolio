@@ -18,11 +18,12 @@ export const Navbar = () => {
           className="flex items-center"
         >
           <Image
-            src="/logo.png"
+            src="/logo.svg"
             alt="Logo"
-            width={70}
-            height={70}
+            width={38}
+            height={38}
             draggable={false}
+            unoptimized
             className="cursor-pointer"
           />
           <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Mark Conley</div>
