@@ -9,14 +9,8 @@ import {
 
 export const SKILL_DATA = [
   {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
+    skill_name: "React",
+    image: "react.png",
     width: 80,
     height: 80,
   },
@@ -27,50 +21,8 @@ export const SKILL_DATA = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "TypeScript",
     image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
     width: 80,
     height: 80,
   },
@@ -85,6 +37,12 @@ export const SKILL_DATA = [
     image: "mongodb.png",
     width: 40,
     height: 40,
+  },
+  {
+    skill_name: "React Native",
+    image: "reactnative.png",
+    width: 70,
+    height: 70,
   },
 ] as const;
 
@@ -108,13 +66,13 @@ export const SOCIALS = [
 
 export const FRONTEND_SKILL = [
   {
-    skill_name: "HTML",
+    skill_name: "HTML5",
     image: "html.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS",
+    skill_name: "CSS3",
     image: "css.png",
     width: 80,
     height: 80,
@@ -126,32 +84,8 @@ export const FRONTEND_SKILL = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React",
     image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
     width: 80,
     height: 80,
   },
@@ -162,8 +96,14 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "Next.js 14",
-    image: "next.png",
+    skill_name: "React Native",
+    image: "reactnative.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Mobile-first Design",
+    image: "mui.png",
     width: 80,
     height: 80,
   },
@@ -177,22 +117,10 @@ export const BACKEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "Express.js",
-    image: "express.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "MongoDB",
     image: "mongodb.png",
     width: 40,
     height: 40,
-  },
-  {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
   },
   {
     skill_name: "PostgreSQL",
@@ -206,18 +134,6 @@ export const BACKEND_SKILL = [
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
-  },
 ] as const;
 
 export const FULLSTACK_SKILL = [
@@ -228,56 +144,75 @@ export const FULLSTACK_SKILL = [
     height: 70,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
-  {
     skill_name: "Docker",
     image: "docker.png",
     width: 70,
     height: 70,
   },
+] as const;
 
+export const OTHER_SKILL = [] as const;
+
+export const EXPERIENCE = [
   {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
+    period: "2019.10 - 2026.4",
+    company: "LINGA POS System",
+    role: "Software Developer",
+    description:
+      "Built scalable web and mobile applications using JavaScript, React, and Node.js, focusing on clean implementation, reliable delivery, and user-focused product experiences.",
   },
 ] as const;
 
-export const OTHER_SKILL = [
+export const CERTIFICATIONS = [
   {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
+    category: "AI",
+    name: "Generative AI Model Specialization",
+    provider: "Databricks",
+    issued: "2022.5.16",
+    description:
+      "Specialized in generative AI models and building practical solutions with advanced AI technologies.",
+  },
+  {
+    category: "AWS",
+    name: "AWS Cloud Certification",
+    provider: "Digital Cloud Training",
+    issued: "2020.10.21",
+    description:
+      "Certified in AWS cloud architecture and core cloud services.",
+  },
+] as const;
+
+export const EDUCATION = [
+  {
+    school: "Southern New Hampshire University",
+    location: "Manchester, NH, United Kingdom",
+    duration: "2015.9 - 2019.6",
+    degree: "Bachelor of Computer Science",
+    subject: "Computer Science",
   },
 ] as const;
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "AI Automation Projects - Healthcare / Medical Consultation System",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "Built an AI-powered healthcare consultation system for symptom submission, guided triage, appointment booking, provider communication, doctor dashboards, scheduling, analytics, and secure medical workflows.",
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://virtualtriage.ai/",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "RealEstate Management Project",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "Built a real estate management platform for listings, tenants, leases, maintenance requests, payments, documents, communication, owner reporting, and admin-level portfolio management.",
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://residen.io/",
   },
   {
-    title: "Space Themed Website",
+    title: "B2B Cross-Border Payments System",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "Built a secure fintech dashboard for sending, receiving, tracking, and reconciling international payments with multi-currency flows, beneficiary management, compliance checks, and payment monitoring.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://www.transfi.com/",
   },
 ] as const;
 
@@ -352,6 +287,10 @@ export const NAV_LINKS = [
   {
     title: "Skills",
     link: "#skills",
+  },
+  {
+    title: "Experience",
+    link: "#experience",
   },
   {
     title: "Projects",
